@@ -21,11 +21,24 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
 
         }
+        
+    }
+    public void Start()
+    {
+        LoadScene("Splash");
     }
 
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown("Jump"))
+        {
+            
+        }
     }
 }
         
