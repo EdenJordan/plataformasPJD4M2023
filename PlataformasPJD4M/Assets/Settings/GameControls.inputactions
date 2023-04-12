@@ -78,10 +78,21 @@
                 {
                     "name": "",
                     "id": "c7a6d350-d805-49d9-b957-e05b7c58b775",
-                    "path": "<Gamepad>/dpad/left",
+                    "path": "<Gamepad>/leftStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controle",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6404216a-4b2f-41bb-b445-4801d605eba5",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
