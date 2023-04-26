@@ -33,11 +33,17 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void LoadLevel(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
+        SceneManager.LoadScene("GUI", LoadSceneMode.Additive);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown("Jump"))
         {
-            
+            // Faz algo
         }
     }
 }

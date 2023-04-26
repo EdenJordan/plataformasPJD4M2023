@@ -43,17 +43,6 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "9666c8b7-cff5-4c97-be18-306890b52d59",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Teclado;Teclado ",
-                    "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "0cd759b7-ec78-443a-a65c-41c85e4e4197",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
@@ -87,7 +76,7 @@
                 },
                 {
                     "name": "Setas",
-                    "id": "fb2dd0a1-7d0d-4165-bf49-fa3022744078",
+                    "id": "b769bed8-0bfe-4c38-8301-d486d3e21323",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -98,51 +87,51 @@
                 },
                 {
                     "name": "up",
-                    "id": "3708bcd9-9c17-48c2-a8bf-906ab8168839",
+                    "id": "ebad683e-1437-4398-8da6-ae75ab8c26cf",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "474922d9-c6f5-4f2c-b869-6d0618df26f5",
+                    "id": "71ec5213-0256-4596-8746-82c8597b47db",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "7edf4f74-ce6d-41e3-89bd-441c238bab11",
+                    "id": "31e281fb-4a14-4f46-9b0f-0516c1dd06ec",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "c8a92615-50f8-4ed5-a995-d48ac44b710e",
+                    "id": "daff7be5-9006-4e2e-8bf6-d94250e17479",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado;Teclado ",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "WASD",
-                    "id": "83536395-ac90-432c-b84b-c7f2f205d7ec",
+                    "id": "e5f270a7-8443-45de-b9d5-d136a720b273",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -153,44 +142,44 @@
                 },
                 {
                     "name": "up",
-                    "id": "0ba0ef0c-ec62-417a-b0e7-b039ce4b141c",
+                    "id": "015a5fa3-b871-407a-a29a-b4ba9161a76a",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "910a94a5-3e17-4ed0-86d4-7080cd043e40",
+                    "id": "1afa3dae-95b1-40b9-9d64-a84e7db4be76",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "5583ff60-9a31-4f04-be75-8eb0ca0012b5",
+                    "id": "2f2cec9d-478e-46ad-ada2-c6cfc03e8f80",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "d06a964a-c499-4d03-b4dd-89be39596f7d",
+                    "id": "1f3148d8-f3ee-4a33-b5e1-0ebd85519a3e",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Teclado ;Teclado",
+                    "groups": "Teclado",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -199,17 +188,6 @@
         }
     ],
     "controlSchemes": [
-        {
-            "name": "Teclado ",
-            "bindingGroup": "Teclado ",
-            "devices": [
-                {
-                    "devicePath": "<Keyboard>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        },
         {
             "name": "Controle",
             "bindingGroup": "Controle",

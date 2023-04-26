@@ -6,7 +6,7 @@ public class MainMenuController : MonoBehaviour
 {
     public void Loadlevel (string levelName)
     {
-        GameManager.Instance.LoadScene(levelName);
+        GameManager.Instance.LoadLevel(levelName);
     }
     // Start is called before the first frame update
     void Start()
